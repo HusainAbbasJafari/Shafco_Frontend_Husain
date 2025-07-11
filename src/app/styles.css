@@ -1,0 +1,325 @@
+@font-face {
+  font-family: fontRegular;
+  src: url("../../public/fonts/Urbanist-Regular.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: fontMedium;
+  src: url("../../public/fonts/Urbanist-Medium.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: fontSemiBold;
+  src: url("../../public/fonts/Urbanist-SemiBold.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: fontBold;
+  src: url("../../public/fonts/Urbanist-Bold.ttf");
+  font-style: italic;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--main-bg);
+  color: var(--main-fg);
+  font-family: fontRegular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+body .bg-whitee {
+  background: var(--color-white) !important;
+}
+body .bg-dynamic {
+  background: var(--themeColor) !important;
+}
+body .text-dynamic {
+  color: var(--color-white) !important;
+}
+body .bg-gray-shade {
+  background-color: var(--gray-shade) !important;
+}
+
+.full_height {
+  max-width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.max_h_full {
+  max-height: calc(100vh - 90px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: fontSemiBold;
+}
+
+.font-medium {
+  font-family: fontMedium;
+}
+
+.font-semibold {
+  font-family: fontSemiBold;
+}
+
+.font-bold {
+  font-family: fontMedium;
+}
+
+.scroll_top_margin {
+  scroll-margin-top: 120px;
+}
+.scroll_top_margin.size_xl {
+  scroll-margin-top: 240px;
+}
+
+#nprogress .bar {
+  height: 2px;
+  background: var(--primary) !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--primary), 0 0 2px var(--primary);
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+a.text-link:hover {
+  color: var(--primary);
+}
+
+.container {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 96%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1340px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .container {
+    max-width: 1365px;
+  }
+}
+
+.content_section {
+  min-height: calc(100vh - 90px - 341px);
+  display: flex;
+  flex-direction: column;
+}
+
+header nav {
+  height: 90px;
+  box-shadow: 0px 4px 14.8px 0px rgba(0, 0, 0, 0.0588235294);
+}
+header .header_menu {
+  box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.3803921569);
+}
+header.is_sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeInDown 500ms linear 1;
+}
+
+.profileDrop {
+  box-shadow: 0px 4px 8.6px 0px rgba(0, 0, 0, 0.1490196078) !important;
+  border: none;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.loader {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 75px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.loader-1 .loader-outter {
+  position: absolute;
+  border: 4px solid var(--primary);
+  border-left-color: transparent;
+  border-bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: loader-1-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+}
+
+.loader-1 .loader-inner {
+  position: absolute;
+  border: 4px solid var(--primary);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  border-right: 0;
+  border-top-color: transparent;
+  animation: loader-1-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+}
+@keyframes loader-1-outter {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader-1-inner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes bounceArrow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+.arrow-bounce {
+  animation: bounceArrow 1.5s ease-in-out infinite;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-min {
+  line-height: 1.25;
+}
+
+.image_animation {
+  overflow: hidden;
+}
+.image_animation img {
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  -moz-transition: transform 0.5s ease-in-out;
+  -ms-transition: transform 0.5s ease-in-out;
+  -o-transition: transform 0.5s ease-in-out;
+}
+.image_animation:hover img {
+  transform: scale(1.1);
+}
+
+.custom_slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  border: 1px solid white;
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 48;
+}
+.custom_slider .slick-arrow:hover {
+  transform: translateY(-50%) scale(1.15);
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.custom_slider .slick-arrow::before {
+  content: "";
+  background: url("../../public/icons/chevronLeft.svg") no-repeat;
+  background-size: 10px;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+.custom_slider .slick-arrow.slick-prev {
+  left: -10px;
+}
+.custom_slider .slick-arrow.slick-next {
+  right: -10px;
+}
+.custom_slider .slick-arrow.slick-next::before {
+  background: url("../../public/icons/chevronRight.svg") no-repeat;
+  background-size: 10px;
+  background-position: center;
+}
+.custom_slider.type_2 .slick-arrow {
+  width: 32px;
+  height: 32px;
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  background-color: transparent !important;
+}
+.custom_slider.type_2 .slick-arrow::before {
+  background: url("../../public/icons/chevronLeftPrimary.svg") no-repeat;
+  background-size: 14px;
+  background-position: center;
+}
+.custom_slider.type_2 .slick-arrow.slick-next::before {
+  background: url("../../public/icons/chevronRightPrimary.svg") no-repeat;
+  background-size: 14px;
+  background-position: center;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--color-white);
+  border-color: var(--primary);
+  transition: all 0.2s ease-in-out;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--primary);
+}/*# sourceMappingURL=styles.css.map */

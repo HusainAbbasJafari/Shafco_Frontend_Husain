@@ -1,0 +1,108 @@
+{
+    "general": {
+        "hello": "Hello",
+        "brands": "Brands",
+        "colors": "Colors",
+        "size": "Size",
+        "contactUs": "Contact Us",
+        "from": "From",
+        "search": "Search",
+        "profile": "Profile",
+        "profileDetails": "Profile Details",
+        "editProfile": "Edit Profile",
+        "saveDetails": "Save Details",
+        "cancel": "Cancel",
+        "wishlist": "Wishlist",
+        "welcome": "Welcome",
+        "bag": "Bag",
+        "viewProfile": "View Profile",
+        "myOrders": "My Orders",
+        "nearbyStores": "Nearby Stores",
+        "loyaltyPoints": "Loyalty Points",
+        "rewards": "Rewards",
+        "referAndEarn": "Refer and Earn",
+        "settings": "Settings",
+        "logout": "Log Out",
+        "noProducts": "No products found",
+        "sortBy": "Sort By",
+        "priceLowToHigh": "Price: Low to High",
+        "priceHighToLow": "Price: High to Low",
+        "popular": "Popular",
+        "newest": "Newest",
+        "filters":"Filters",
+        "priceRange":"Price Range",
+        "login/signup":"Login / Signup",
+        "personalDetails":"Personal Details",
+        "mywishlist":"My wishlist",
+        "comingSoon":"Coming Soon"
+    },
+    "header": {
+        "menu1": "Fashion",
+        "menu2": "Beauty",
+        "menu3": "Glasses",
+        "menu4": "Others",
+        "searchAnything": "Search Anything",
+        "english": "English",
+        "french": "French",
+        "profileSubH1":"To Access Account and manage orders"
+    },
+    "home":{
+        "catH1": "Top Picks",
+        "catH2": "Discover By Categories",
+        "catH3": "Explore By Brands",
+        "catH4": "Top Stores",
+        "catH5": "Discover Top Beauty Picks",
+        "catH6": "Discover Top Accessories"
+    },
+    "footer": {
+        "onlineShopping": {
+            "title": "Online Shopping",
+            "fashion": "Fashion",
+            "beauty": "Beauty",
+            "glasses": "Glasses",
+            "giftCards": "Gift Cards"
+        },
+        "usefulLinks": {
+            "title": "Useful Links",
+            "blog": "Blog",
+            "careers": "Careers"
+        },
+        "customerPolicies": {
+            "title": "Customer Policies",
+            "contactUs": "Contact Us",
+            "faqs": "FAQs",
+            "terms": "T&C",
+            "trackOrders": "Track Orders",
+            "shipping": "Shipping",
+            "cancellation": "Cancellation",
+            "returns": "Returns",
+            "privacy": "Privacy Policies"
+        },
+        "appExperience": {
+            "title": "Experience Shafco. App on Mobile"
+        },
+        "keepInTouch": "Keep in Touch",
+        "reachUs": {
+            "title": "Reach Us",
+            "address": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+            "phone": "0123-456-458",
+            "email": "loremlpsum@gmail.com"
+        }
+    },
+    "form": {
+        "label1": "Name",
+        "placeHolder1": "Enter Your Name",
+        "label2": "Email",
+        "placeHolder2": "Enter Your Email",
+        "label3": "Location",
+        "placeHolder3": "Enter Your Location",
+        "label4": "Resume",
+        "placeHolder4": "Attach your CV here",
+        "message": "Message",
+        "typeMsg": "Type your message here...",
+        "submit": "Submit",
+        "surname": "Surname",
+        "telNo": "Telephone Number",
+        "comment": "Comment"
+    }
+}

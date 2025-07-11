@@ -1,0 +1,107 @@
+{
+    "general": {
+        "hello": "Bonjour",
+        "brands": "Marques",
+        "colors": "Couleurs",
+        "size": "Taille",
+        "contactUs": "Contactez-nous",
+        "from": "De",
+        "search": "Recherche",
+        "profile": "Profil",
+        "profileDetails": "Détails du profil",
+        "editProfile": "Modifier le profil",
+        "saveDetails": "Enregistrer les détails",
+        "cancel": "Annuler",
+        "wishlist": "Liste de souhaits",
+        "welcome": "Bienvenue",
+        "bag": "Sac",
+        "viewProfile": "Voir le profil",
+        "myOrders": "Mes commandes",
+        "nearbyStores": "Magasins à proximité",
+        "loyaltyPoints": "Points de fidélité",
+        "rewards": "Récompenses",
+        "referAndEarn": "Parrainez et gagnez",
+        "settings": "Paramètres",
+        "logout": "Se déconnecter",
+        "noProducts": "Aucun produit trouvé",
+        "sortBy": "Trier par",
+        "priceLowToHigh": "Prix : croissant",
+        "priceHighToLow": "Prix : décroissant",
+        "popular": "Populaire",
+        "newest": "Nouveautés",
+        "filters": "Filtres",
+        "priceRange": "Gamme de prix",
+        "login/signup": "Connexion / Inscription",
+        "personalDetails": "Détails personnels",
+        "mywishlist": "Ma liste de souhaits"
+    },
+    "header": {
+        "menu1": "Mode",
+        "menu2": "Beauté",
+        "menu3": "Lunettes",
+        "menu4": "Autres",
+        "searchAnything": "Rechercher n'importe quoi",
+        "english": "Anglais",
+        "french": "Français",
+        "profileSubH1":"Pour accéder au compte et gérer les commandes"
+    },
+    "home":{
+        "catH1": "Nos coups de cœur",
+        "catH2": "Découvrir par catégorie",
+        "catH3": "Explorer par marques",
+        "catH4": "Nos meilleurs magasins",
+        "catH5": "Découvrir les tops beauté",
+        "catH6": "Découvrir les tops accessoires"
+    },
+    "footer": {
+        "onlineShopping": {
+            "title": "Achats en ligne",
+            "fashion": "Mode",
+            "beauty": "Beauté",
+            "glasses": "Lunettes",
+            "giftCards": "Cartes cadeaux"
+        },
+        "usefulLinks": {
+            "title": "Liens utiles",
+            "blog": "Blog",
+            "careers": "Carrières"
+        },
+        "customerPolicies": {
+            "title": "Politiques clients",
+            "contactUs": "Nous contacter",
+            "faqs": "FAQ",
+            "terms": "CGV",
+            "trackOrders": "Suivi des commandes",
+            "shipping": "Livraison",
+            "cancellation": "Annulation",
+            "returns": "Retours",
+            "privacy": "Politique de confidentialité"
+        },
+        "appExperience": {
+            "title": "Expérience Shafco. sur mobile"
+        },
+        "keepInTouch": "Restez en contact",
+        "reachUs": {
+            "title": "Nous joindre",
+            "address": "Lorem Ipsum est simplement un texte d'essai pour les industries de l'impression et de la composition",
+            "phone": "0123-456-458",
+            "email": "loremlpsum@gmail.com"
+        }
+    },
+    "form": {
+        "label1": "Nom",
+        "placeHolder1": "Entrez votre nom",
+        "label2": "Email",
+        "placeHolder2": "Entrez votre email",
+        "label3": "Lieu",
+        "placeHolder3": "Entrez votre lieu",
+        "label4": "CV",
+        "placeHolder4": "Joignez votre CV",
+        "message": "Message",
+        "typeMsg": "Entrez votre message...",
+        "submit": "Envoyer",
+        "surname": "Prénom",
+        "telNo": "Numéro de téléphone",
+        "comment": "Commentaire"
+    }
+}
