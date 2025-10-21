@@ -7,10 +7,10 @@
 ### Dashboard
 ![Home](./public/Shafco_Home.png)
 
-### Admin
+### ProductList
 ![Products](./public/Shafco_Products2.png)
 
-### Add Source
+### ProductDetails
 ![Product Detail](./public/Shafco-Pd.png)
 
 ---
