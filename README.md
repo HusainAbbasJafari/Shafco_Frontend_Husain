@@ -1,6 +1,6 @@
 # 🛍️ Shafco Web
 
-🔗 **Live Demo:** [https://shafco.augurslive.com/](https://shafco.augurslive.com/)
+🔗 **Live Demo:** [https://gericht-by-jayf.netlify.app/](https://gericht-by-jayf.netlify.app/)
 
 ---
 
